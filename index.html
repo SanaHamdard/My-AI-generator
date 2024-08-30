@@ -1,29 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI poem genrator</title>
+    <title>AI Poem Generator</title>
+    <style>
+        body {
+            background-color: bisque;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h1 {
+            font-weight: 800;
+            font-size: 35px;
+            line-height: 1.5;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .container {
+            margin: 120px auto;
+            max-width: 600px;
+            background-color: aliceblue;
+            padding: 40px;
+        }
+
+        header {
+            margin-bottom: 30px;
+        }
+
+        .input {
+            padding: 10px;
+            border: 1px solid rgba(33, 33, 66, 0.5);
+            width: 60%;
+            font-size: 15px;
+            border-radius: 3px;
+            line-height: 20px;
+            color: black;
+        }
+
+        .submit {
+            margin-left: 10px;
+            background-color: lightgray;
+            color: black;
+            border-radius: 3px;
+            border: 1px solid black;
+            width: 150px;
+            padding: 14px 24px;
+            cursor: pointer;
+        }
+
+        .poem {
+            font-size: 15px;
+            background-color: white;
+            padding: 50px;
+            line-height: 24px;
+            border-left: 3px solid ;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 6px;
+            padding-bottom: 0px;
+        }
+
+        a {
+            color: blue;
+        }
+    </style>
 </head>
+
 <body>
+
     <header>
-        <h1>Ai Poem generator</h1>
+        <h1>AI Poem Generator</h1>
     </header>
-    <main>
-        <form>
-            <input type="text" placeholder="Enter the topic of the French Poem." autofocus required
-            autocomplete="off"/>
-            <input type="Submit"/>
-            <div>
-                The poem will go here 
-               <div>
-               The poem will go here
+    <div class="container">
+        <main>
+            <form>
+                <input type="text" placeholder="Enter the topic of the French Poem." autofocus required
+                    autocomplete="off" class="input" />
+                <input type="submit" class="submit" />
+            </form>
+            <div class="poem">
+                The poem will go here
             </div>
-        </div>
-        </form>
-    </main>
+        </main>
+    </div>
     <footer>
-        This project was coded by Sana Hamdard and is on  <a href="">GitHub</a> and hosted on <a href="">Netlify</a>
+        This project was coded by Sana Hamdard and is on <a href="https://github.com/SanaHamdard/My-AI-generator">GitHub</a> and hosted on <a href="https://my-ai-genertaor.netlify.app/">Netlify</a>
     </footer>
 </body>
+
 </html>
